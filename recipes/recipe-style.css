@@ -1,0 +1,57 @@
+.title {
+    font-family: "Copperplate", "Papyrus", fantasy;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 1em;
+}
+
+#home a:link, a:visited,  a:hover, a:active {
+    color: #000000;
+    text-decoration: none;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    font-family: "Copperplate", "Papyrus", fantasy;
+    font-size: 20px;
+}
+
+#home {
+    display: block;
+    margin-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5em;
+    padding-top: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 1em;
+    font-family: "Copperplate", "Papyrus", fantasy;
+    font-size: 20px;
+}
+
+#home:hover {
+text-shadow: 1px 1px 1px black, 0 0 25px rgb(255, 0, 55), 0 0 2px rgb(139, 0, 0);
+}
+
+.plated {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.d-title,
+.descr {
+    text-align: center;
+}
+
+.body {
+margin-left: 10rem;
+margin-right: 10rem;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 20px;
+line-height: 2rem;
+}

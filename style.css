@@ -1,0 +1,26 @@
+#title a:link, a:visited, a:active {
+    color: #000000;
+    text-decoration: none;
+}
+
+#title {
+    font-family:"Brush Script MT", cursive;
+    font-size: 57px;
+    text-align: center;
+    margin-top: 3em;
+}
+
+.links {
+    font-family:"Copperplate", "Papyrus", fantasy;
+    font-size: 21px;
+    text-align: center;
+    margin-top: .5em;
+}
+
+#title:hover {
+    text-shadow: 1px 1px 1px black, 0 0 25px blue, 0 0 2px darkblue;
+}
+
+.links:hover {
+    text-shadow: .5px .5px .5px black, 0 0 5px blue, 0 0 2px darkblue;
+}
